@@ -13,8 +13,10 @@
 
 .gitignore
 untracked
-_nb_header.html       # generated when including notebooks
+# generated when including notebooks
+_nb_header.html
 pelican-plugins
 .ipynb_checkpoints/
 TODO.txt
 publishconf.py
+content/notebooks/
