@@ -17,3 +17,4 @@ _nb_header.html       # generated when including notebooks
 pelican-plugins
 .ipynb_checkpoints/
 TODO.txt
+publishconf.py
