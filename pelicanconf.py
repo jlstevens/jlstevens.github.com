@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jean-Luc Stevens'
 SITENAME = u'Cortical Code'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://jlstevens.github.io/cortical-code'
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = u'en'
 PATH = 'content'
