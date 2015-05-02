@@ -20,3 +20,4 @@ pelican-plugins
 TODO.txt
 publishconf.py
 content/notebooks/
+cache/
