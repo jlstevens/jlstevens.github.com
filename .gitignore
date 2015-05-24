@@ -21,3 +21,6 @@ TODO.txt
 publishconf.py
 content/notebooks/
 cache/
+scratch/
+output/
+*.pid
