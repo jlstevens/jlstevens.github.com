@@ -15,6 +15,9 @@
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
 
+          {% if EXTRA_HEADER %}
+             {{ EXTRA_HEADER }}
+          {% endif %}
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/screen.css" type="text/css" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css" />
 

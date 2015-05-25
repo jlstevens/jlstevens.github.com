@@ -17,6 +17,8 @@ PLUGINS = ['summary',                # Allows breaks
            'liquid_tags.youtube',    # May be useful e.g: {% youtube lEEa83Tsjrg %}
            'liquid_tags.notebook']   # Useful!
 
+EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
 NOTEBOOK_DIR = 'notebooks'
 
 # Feed generation is usually not desired when developing
