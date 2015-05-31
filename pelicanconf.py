@@ -24,6 +24,10 @@ PLUGINS += ['pelican_dynamic'] # See https://github.com/wrobstory/pelican_dynami
 EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 
+STATIC_PATHS = ['extras/robots.txt'] # Could add a 'static' folder here
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'}}
+
 NOTEBOOK_DIR = 'notebooks'
 
 # Feed generation is usually not desired when developing

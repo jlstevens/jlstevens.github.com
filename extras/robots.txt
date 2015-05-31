@@ -1,0 +1,4 @@
+# Disallow until the website is somewhat ready
+
+User-agent: *
+Disallow: /
