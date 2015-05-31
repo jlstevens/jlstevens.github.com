@@ -17,7 +17,12 @@ PLUGINS = ['summary',                # Allows breaks
            'liquid_tags.youtube',    # May be useful e.g: {% youtube lEEa83Tsjrg %}
            'liquid_tags.notebook']   # Useful!
 
+
+PLUGINS += ['pelican_dynamic'] # See https://github.com/wrobstory/pelican_dynamic
+
+# Comment to disabled notebook CSS
 EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
 
 NOTEBOOK_DIR = 'notebooks'
 
