@@ -15,7 +15,8 @@ THEME='./pelican-mockingbird' # pelican-alchemy was considered
 PLUGIN_PATHS = ['./pelican-plugins'] # Clone of the repository
 PLUGINS = ['summary',                # Allows breaks
            'liquid_tags.youtube',    # May be useful e.g: {% youtube lEEa83Tsjrg %}
-           'liquid_tags.notebook']   # Useful!
+           'liquid_tags.notebook',   # Useful!
+           'liquid_tags.nbinlined']  # My own additional tag
 
 
 PLUGINS += ['pelican_dynamic'] # See https://github.com/wrobstory/pelican_dynamic
