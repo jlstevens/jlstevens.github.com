@@ -1677,7 +1677,9 @@ init_mathjax = function() {
                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
             },
             displayAlign: 'left', // Change this to 'center' to center equations.
-            "HTML"
+            "HTML-CSS": {
+                styles: {}
+            }
         });
         MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
@@ -1724,8 +1726,8 @@ jQuery(document).ready(function($) {
 <i>Exploratory yet reproducible research
 </div>
             <div id="content">
-<a class="tag" href="/tag/HoloViews.html" style="font-size: 2.5em;" title="HoloViews">HoloViews</a>
 <a class="tag" href="/tag/Fractals.html" style="font-size: 2.5em;" title="Fractals">Fractals</a>
+<a class="tag" href="/tag/HoloViews.html" style="font-size: 2.5em;" title="HoloViews">HoloViews</a>
 
                 <div class="clear"></div>
                 <div id="footer">

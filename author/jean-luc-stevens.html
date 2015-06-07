@@ -1677,7 +1677,9 @@ init_mathjax = function() {
                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
             },
             displayAlign: 'left', // Change this to 'center' to center equations.
-            "HTML"
+            "HTML-CSS": {
+                styles: {}
+            }
         });
         MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
