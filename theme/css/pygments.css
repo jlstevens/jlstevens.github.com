@@ -42,7 +42,7 @@
 .mf { color: #40a070 } /* Literal.Number.Float */
 .mh { color: #40a070 } /* Literal.Number.Hex */
 .mi { color: #40a070 } /* Literal.Number.Integer */
-.mo { color: #40a070 } /* Literal.Number.Oct */
+.highlight .mo { color: #40a070 } /* Literal.Number.Oct */
 .sb { color: #4070a0 } /* Literal.String.Backtick */
 .sc { color: #4070a0 } /* Literal.String.Char */
 .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */
