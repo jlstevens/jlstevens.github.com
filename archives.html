@@ -1671,6 +1671,7 @@ init_mathjax = function() {
     if (window.MathJax) {
         // MathJax loaded
         MathJax.Hub.Config({
+            showMathMenu: false,
             tex2jax: {
                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
@@ -1725,6 +1726,14 @@ jQuery(document).ready(function($) {
 </div>
             <div id="content">
                 <h1>Archives</h1>
+
+                <h4 class="date">Jun 2015</h4>
+                <div class="post archives">
+                    <ul>
+                        <li>02: <a href="http://jlstevens.github.io/logistic-map.html">The Logistic Map</a></li>
+                    </ul>
+                    <br />
+                </div>
 
                 <h4 class="date">May 2015</h4>
                 <div class="post archives">

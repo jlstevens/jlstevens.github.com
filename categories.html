@@ -1671,6 +1671,7 @@ init_mathjax = function() {
     if (window.MathJax) {
         // MathJax loaded
         MathJax.Hub.Config({
+            showMathMenu: false,
             tex2jax: {
                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
